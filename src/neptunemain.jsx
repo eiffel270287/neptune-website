@@ -1,4 +1,4 @@
-import React from "react";
+import NeptuneMain from './NeptuneMain.jsx';
 
 export default function NeptuneMain() {
   return (
