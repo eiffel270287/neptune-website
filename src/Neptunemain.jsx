@@ -2,9 +2,13 @@ import React from "react";
 
 export default function NeptuneMain() {
   return (
-    <div className="text-white text-center p-10">
-      <h1 className="text-4xl font-bold mb-4">Selamat Datang di Neptune Indonesia</h1>
-      <p className="text-lg text-gray-400">Interior Design & Contractor</p>
+    <div style={{ minHeight: "100vh", display: "flex", justifyContent: "center", alignItems: "center", background: "#000", color: "#fff", flexDirection: "column" }}>
+      <h1 style={{ fontSize: "2.5rem", fontWeight: "bold", marginBottom: "1rem" }}>
+        🚀 Neptune Indonesia
+      </h1>
+      <p style={{ fontSize: "1.2rem", color: "#ccc" }}>
+        Interior Design & Contractor
+      </p>
     </div>
   );
 }
