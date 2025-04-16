@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NeptuneMain from './NeptuneMain';
+import NeptuneMain from './NeptuneMain.jsx';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
